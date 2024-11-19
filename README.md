@@ -16,7 +16,7 @@ Clona este repositorio:
 
 git clone https://github.com/LeiderTorres16/post-app-prueba-tenica.git
 
-cd tu_repositorio
+cd post-app-prueba-tenica
 
 
 Instala las dependencias:
@@ -40,7 +40,8 @@ Modal de Confirmación: Confirma acciones críticas como eliminar publicaciones.
 🧪 Pruebas
 Este proyecto incluye pruebas unitarias y de integración para garantizar el correcto funcionamiento de las funcionalidades principales.
 
-Ejecutar Pruebas
+## Ejecutar Pruebas
+
 Ejecuta el siguiente comando:
 
 npm test
