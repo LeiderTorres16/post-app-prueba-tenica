@@ -14,7 +14,7 @@ Sitio Web de la Apliacación desplegada: https://prueba-tecnica-crud-articles.ne
 
 Clona este repositorio:
 
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/LeiderTorres16/post-app-prueba-tenica.git
 cd tu_repositorio
 
 
@@ -58,8 +58,11 @@ src/
 │   ├── PostForm.js      // Formulario para crear/editar publicaciones
 │   ├── Modal.js         // Modal para confirmaciones
 ├── tests/
-│   ├── PostList.test.js // Pruebas unitarias para PostList
-│   ├── index.test.js    // Pruebas para index.js
+│   ├── App.test.js       // Pruebas para App
+│   ├── index.test.js     // Pruebas para index
+│   ├── Modal.test.js     // Pruebas para Modal
+│   ├── PostForm.test.js  // Pruebas para PostForm
+│   ├── PostList.test.js  // Pruebas para PostList
 ├── index.js             // Punto de entrada del proyecto
 ├── App.js               // Componente raíz
 └── index.css            // Estilos principales
