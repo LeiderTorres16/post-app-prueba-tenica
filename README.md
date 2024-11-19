@@ -1,4 +1,4 @@
-Post App - Prueba Técnica
+# **Post App - Prueba Técnica**
 Este proyecto es una aplicación de gestión de publicaciones que permite a los usuarios crear, editar, eliminar y visualizar publicaciones. Se desarrolló como parte de una prueba técnica.
 
 🛠️ Tecnologías Utilizadas
@@ -15,6 +15,7 @@ Sitio Web de la Apliacación desplegada: https://prueba-tecnica-crud-articles.ne
 Clona este repositorio:
 
 git clone https://github.com/LeiderTorres16/post-app-prueba-tenica.git
+
 cd tu_repositorio
 
 
