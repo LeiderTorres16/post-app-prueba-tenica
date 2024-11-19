@@ -1,5 +1,5 @@
 import "./App.css";
-import PostList from "./components/PostList";
+import PostList from "./components/PostList.js";
 
 function App() {
   return (

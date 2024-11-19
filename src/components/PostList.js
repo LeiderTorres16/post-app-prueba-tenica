@@ -1,8 +1,8 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import PostForm from "./PostForm";
-import Modal from "./Modal";
+import PostForm from "./PostForm.js";
+import Modal from "./Modal.js";
 
 export default function PostList() {
   const [posts, setPosts] = useState([]);

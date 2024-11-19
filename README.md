@@ -8,6 +8,8 @@ TailwindCSS - Framework CSS para el diseño.
 JSONPlaceholder - API de prueba utilizada como backend para simular datos.
 Jest y React Testing Library - Herramientas para pruebas unitarias e integración.
 
+Sitio Web de la Apliacación desplegada: https://prueba-tecnica-crud-articles.netlify.app
+
 📦 Instalación
 
 Clona este repositorio:
