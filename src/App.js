@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import PostList from "./components/PostList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen bg-gray-100 p-4">
+      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
+        <h1 className="text-3xl font-bold text-center mb-6 text-blue-700">
+          Blog App con React y Tailwind CSS
+        </h1>
+        <PostList />
+      </div>
     </div>
   );
 }

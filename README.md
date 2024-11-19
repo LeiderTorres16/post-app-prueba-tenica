@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+Post App - Prueba Técnica
+Este proyecto es una aplicación de gestión de publicaciones que permite a los usuarios crear, editar, eliminar y visualizar publicaciones. Se desarrolló como parte de una prueba técnica.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🛠️ Tecnologías Utilizadas
+React (v18.3.1) - Biblioteca para construir interfaces de usuario.
+Axios - Cliente HTTP para realizar solicitudes a una API.
+TailwindCSS - Framework CSS para el diseño.
+JSONPlaceholder - API de prueba utilizada como backend para simular datos.
+Jest y React Testing Library - Herramientas para pruebas unitarias e integración.
 
-## Available Scripts
+📦 Instalación
 
-In the project directory, you can run:
+Clona este repositorio:
 
-### `npm start`
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Instala las dependencias:
 
-### `npm test`
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Inicia el servidor de desarrollo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🚀 Funcionalidades
+Crear Publicaciones: Agrega una nueva publicación con título y contenido.
+Editar Publicaciones: Modifica los datos de una publicación existente.
+Eliminar Publicaciones: Confirma la eliminación de una publicación seleccionada.
+Paginación: Visualiza publicaciones en páginas con navegación.
+Modal de Confirmación: Confirma acciones críticas como eliminar publicaciones.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🧪 Pruebas
+Este proyecto incluye pruebas unitarias y de integración para garantizar el correcto funcionamiento de las funcionalidades principales.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ejecutar Pruebas
+Ejecuta el siguiente comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+npm test
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+Para generar un reporte de cobertura:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm test -- --coverage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+📂 Estructura del Proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+src/
+├── components/
+│   ├── PostList.js      // Componente principal para manejar publicaciones
+│   ├── PostForm.js      // Formulario para crear/editar publicaciones
+│   ├── Modal.js         // Modal para confirmaciones
+├── tests/
+│   ├── PostList.test.js // Pruebas unitarias para PostList
+│   ├── index.test.js    // Pruebas para index.js
+├── index.js             // Punto de entrada del proyecto
+├── App.js               // Componente raíz
+└── index.css            // Estilos principales
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+📝 Notas
+Este proyecto utiliza JSONPlaceholder como API de prueba. Considera implementar una API personalizada para entornos de producción.
+Para estilos, se usó TailwindCSS. Puedes personalizarlos en el archivo tailwind.config.js.
 
-### Making a Progressive Web App
+🤝 Contribuciones
+¡Las contribuciones son bienvenidas! Si encuentras un error o deseas mejorar alguna funcionalidad, por favor, crea un issue o un pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💡 Contacto
+Autor: Leider Andres Torres Avila
+Correo: leiderandrestorresavila@gmail.com
